@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "node scripts/main.js",
-    "deploy": "git push -u origin master"
+    "commit": "git add * && git commit -m \"npm: auto commit\"",
+    "deploy": "git push -u origin master",
+    "all": "run-s build commit deploy"
   },
   "author": "Yuki Fujiwara",
   "license": "MIT",

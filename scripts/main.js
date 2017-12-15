@@ -3,12 +3,7 @@ const mume = require("@shd101wyy/mume");
 async function main() {
     await mume.init();
 
-    if (process.argv.length <= 2) {
-        console.error("Set a directory as an argument.");
-        process.exit();
-    }
-
-    const dirSlides = process.argv[2];
+    const dirSlides = ".";
 
     const myMarkdownFlavor = [
         "markdown",
