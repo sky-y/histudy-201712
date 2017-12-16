@@ -1,5 +1,6 @@
 ---
 title: Markdownでスライド＋執筆
+subtitle: 姫路IT系勉強会 2017.12
 author:
 - 藤原 惟
 - "(藤原 由来, Twitter: sky_y)"
