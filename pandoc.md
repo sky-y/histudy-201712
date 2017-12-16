@@ -2,8 +2,7 @@
 title: Markdownで作るスライド
 author:
 - 藤原 惟
-- 藤原 由来
-- "Twitter: sky_y"
+- "(藤原 由来, Twitter: sky_y)"
 date: 2017年12月16日
 aspectratio: "16:9"
 ---
@@ -26,8 +25,8 @@ aspectratio: "16:9"
 - 画面比の指定 (YAML metadataの`aspectratio`) → 無効
 - `$ pandoc --print-default-data-file reference.pptx > reference.pptx`
     - `reference.pptx`をカスタマイズしてデザインを設定できるはずだが・・・
-    - PowerPoint
-
+    - PowerPointで開くと壊れてる（！？）
+    - LibreOffice Impressで開くしかなさそう？
 
 ## Markdownスライド: MPE
 
