@@ -3,12 +3,33 @@ title: Markdownで作るスライド
 author:
 - 藤原 惟
 - 藤原 由来
-- "Twitter: @sky_y"
+- "Twitter: sky_y"
 date: 2017年12月16日
+aspectratio: "16:9"
 ---
 
+## Markdownスライドの現状
 
-## このスライドをどう作っているか
+- reveal.js (HTMLスライド)が最強
+    - Markdownからreveal.jsに変換する手段がたくさん
+    - Webベースでもreveal.jsバックエンドが多数
+
+## Markdownスライド: Pandoc
+
+- reveal.jsに変換するのがベター
+- Pandoc 2.0.5でPowerPoint出力に対応
+    - 今動いているのがPowerPointです
+    - デザインの調整は追って調査します
+
+## Pandoc: pptxのデザイン
+
+- 画面比の指定 (YAML metadataの`aspectratio`) → 無効
+- `$ pandoc --print-default-data-file reference.pptx > reference.pptx`
+    - `reference.pptx`をカスタマイズしてデザインを設定できるはずだが・・・
+    - PowerPoint
+
+
+## Markdownスライド: MPE
 
 - [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) (MPE)
     - VS Code/Atomのプラグインとして利用可能
