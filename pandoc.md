@@ -1,5 +1,5 @@
 ---
-title: Markdownで作るスライド
+title: Markdownでスライド＋執筆
 author:
 - 藤原 惟
 - "(藤原 由来, Twitter: sky_y)"
@@ -44,6 +44,13 @@ aspectratio: "16:9"
 - <https://github.com/sky-y/histudy-201712>
 - GitHubリポジトリさえ設定できてれば、基本的には`npm run all`でスライド生成→デプロイまで完結します
 - あとで整備して、ボイラープレートとして使えるようにしたい
+
+## 執筆
+
+- 書いてます
+    - noteマガジン: [文系のためのMarkdown入門](https://note.solarsolfa.net/m/m0ee0e40a1c72)
+- noteはMarkdownに未対応なので、人力Markdown処理系で変換
+    - 運営はMarkdownエディタに前向き？
 
 ## 執筆お助けツール
 
