@@ -7,7 +7,8 @@
     "build": "node scripts/main.js",
     "commit": "git add * && git commit -m \"npm: auto commit\"",
     "deploy": "git push -u origin master",
-    "all": "run-s build commit deploy"
+    "all": "run-s build commit deploy",
+    "gh-reset": "git commit --allow-empty -m \"Trigger rebuild\" && git push -u origin master"
   },
   "author": "Yuki Fujiwara",
   "license": "MIT",

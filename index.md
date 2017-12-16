@@ -33,6 +33,14 @@ presentation:
 
 <!-- slide -->
 
+# 参考：スライドのGitHubリポジトリ
+
+- <https://github.com/sky-y/histudy-201712>
+- GitHubリポジトリさえ設定できてれば、基本的には`npm run all`でスライド生成→デプロイまで完結します
+- あとで整備して、ボイラープレートとして使えるようにしたい
+
+<!-- slide -->
+
 # 執筆お助けツール
 
 - [textlint](https://github.com/textlint/textlint)
@@ -43,3 +51,26 @@ presentation:
     - textlintと組み合わせて使う
     - 辞書を作っておくと、用語の誤りを指摘してくれる
     - [サンプルルール](https://github.com/prh/rules)のtechboosterだけでもかなり使える
+
+<!-- slide -->
+
+# 執筆のためのCI
+
+- 技術書界隈でCIが流行ってる
+    - 原稿をPush→完成品に近いPDF生成→GitHub/BitBucketのIssue/PRでフィードバック
+    - [技術書同人誌を書きましょう！ - Qiita](https://qiita.com/erukiti/items/6b7e85f760476a997161)
+- 執筆CIのメリット
+    - 原稿を書いた片っ端から編集者さんが随時校正できる
+        - 執筆フローは、伝統的にはウォーターフローモデル
+    - リモートでの共同執筆やチームプレイが円滑になる
+
+<!-- slide -->
+
+# 執筆に関するおすすめ資料
+
+- [【もくもく執筆会】執筆お疲れさま！歓談＆LT パーティー](https://techbook-meetup.connpass.com/event/64235/)
+    - [資料一覧](https://techbook-meetup.connpass.com/event/64235/presentation/) に上がってるLT資料が良い
+
+<!-- slide  class="center" -->
+
+# おわり
